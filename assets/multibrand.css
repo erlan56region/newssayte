@@ -986,3 +986,10 @@ p { margin: 0; }
 @media (max-width: 1199px) { .mb-footer__contacts { font-size: 1rem; font-weight: 500; } }
 @media (max-width: 767px) { .mb-footer__contacts { margin-left: 0; width: 100%; } }
 .mb-footer__privacy a { border-bottom: 1px solid; }
+
+/* Контакты офиса */
+.mb-contact-card--office { grid-column: 1 / -1; }
+.mb-contact-card__detail { color: #0f2a3d; margin-top: 0.5rem; }
+.mb-contact-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; }
+.mb-contact-actions a { background: #0f2a3d; border-radius: 0.25rem; color: #fff; display: inline-block; padding: 0.85rem 1.25rem; text-decoration: none; }
+.mb-contact-actions a:hover, .mb-contact-actions a:focus-visible { background: #ff3e3e; }
