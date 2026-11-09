@@ -49,11 +49,9 @@ cd newssayte
 
 ## Публикация (GitHub Pages)
 
-Workflow `.github/workflows/deploy-pages.yml` публикует корень репозитория при каждом пуше в `main`.
+Сайт уже опубликован: **https://erlan56region.github.io/newssayte/**
 
-1. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
-2. Сделать пуш в `main` (или запустить workflow вручную: **Actions → Deploy static site to GitHub Pages → Run workflow**).
-3. Сайт будет доступен по адресу `https://erlan56region.github.io/newssayte/`.
+GitHub Pages отдаёт содержимое ветки `main` (корень репозитория), поэтому любой пуш в `main` обновляет страницу автоматически. Дополнительно в репозитории есть workflow `.github/workflows/deploy-pages.yml`, который публикует тот же корень через GitHub Actions — его можно запустить вручную: **Actions → Deploy static site to GitHub Pages → Run workflow**. Если понадобится переключить источник публикации: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
 ---
 
