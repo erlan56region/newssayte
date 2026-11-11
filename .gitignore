@@ -30,3 +30,6 @@ venv/
 # Локальные логи и временные файлы
 *.log
 tmp/
+
+# Arena connector staging (downloaded files)
+google_drive/
